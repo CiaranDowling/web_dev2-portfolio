@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Portfolio Website</title>
+      <style>
+
+      body {
+	    margin: 0;
+	    padding: 0;
+	    background-color: #ccc;
+	    font-size: medium;
+	    font-family: courier;
+	  }
+
+	  h2{
+	    text-align: center;
+	  }
+	  .nav ul {
+	    list-style: none;
+	    background-color: #444;
+	    text-align: center;
+	    padding: 14px 16px;
+	    margin: 0;
+	  }
+	  .nav li {
+	    font-family: 'Oswald', sans-serif;
+	    font-size: 1.2em;
+	    line-height: 40px;
+	    height: 40px;
+	    border-bottom: 1px solid #888;
+	  }
+
+	  .nav a {
+	    text-decoration: none;
+	    color: #fff;
+	    display: incline;
+	    transition: .3s background-color;
+	    padding: 14px 16px;
+	  }
+
+	  .nav a:hover {
+	    background-color: #005f5f;
+	  }
+
+	  .nav a.active {
+	    background-color: #fff;
+	    color: #444;
+	    cursor: default;
+	  }
+
+	  #footer{
+	     text-align: center;
+	     background-color: #444;
+	     position: fixed;
+	     right: 0;
+	     bottom: 0;
+	     left: 0;
+	     padding: 1rem;
+	  }
+
+	  #videos{
+	    webkit-column-count: 3;
+	    moz-column-count: 3;
+	    column-count: 3;
+	    webkit-column-gap: 40px;
+	    moz-column-gap: 40px;
+	    column-gap: 40px;
+	  }
+
+	  .column {
+	      float: left;
+	      width: 50%;
+	      padding: 10px;
+	      height: 300px;
+	  }
+	  .column2 {
+	      float: right;
+	      width: 50%;
+	      padding: 10px;
+	      height: 300px;
+	  }
+
+	  #content{
+	     background: liner-gradient(-90deg, black, gray);
+	  }
+
+    </style>
+</head>
+<body>
+<header>
+<h1> Ciaran Dowling</h1>
+<div class="nav">
+ <ul>
+    <a href="Home.html">Home</a>
+    <a href="About Me.html">About Me</a>
+    <a href="Photography Work.html">Photography Work</a>
+    <a href="Design Work.html">Design Work</a>
+    <a href="Media Work.html">Media Work</a>
+ </ul>
+</div>
+</header>
+
+<h2>Photography</h2>
+<hr>
+
+<div class="row">
+ <div class="column">
+  <img src="Images/photo3.jpg" width="150" height="150" alt="photo3">
+  <img src="Images/photo4.jpg" width="150" height="150" alt="phot04">
+  <img src="Images/photo5.jpg" width="150" height="150" alt="photo5">
+  <img src="Images/photo1.jpg" width="150" height="150" alt="photo1">
+  <img src="Images/photo2.jpg" width="150" height="150" alt="photo2">
+ </div>
+
+<div class="column2">
+<img src="Images/face1.jpg" width="150" height="150" alt="face1">
+ </div>
+</div>
+
+<div id="footer">
+<p>&copy; copyright. All Rights Reserved</p>
+</div>
+</body>
+</html>
